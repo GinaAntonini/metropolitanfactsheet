@@ -1,7 +1,6 @@
 "use strict";
 
 app.controller("PropertyInfoCtrl", function($location, $rootScope, $scope){
-    console.log("Hello World");
     
     $scope.getToSearch = () => {
         $location.path("/search");

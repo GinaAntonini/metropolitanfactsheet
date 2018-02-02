@@ -35,8 +35,28 @@ app.config(function($routeProvider){
         templateUrl: 'partials/addnewincident.html',
         controller: 'AddNewIncidentCtrl'
       })
+      .when("/propertydetail", {
+        templateUrl: 'partials/propertydetail.html',
+        controller: 'PropertyDetailCtrl'
+      })
+      .when("/general", {
+        templateUrl: 'partials/general.html',
+        controller: 'GeneralCtrl'
+      })
+      .when("/access", {
+        templateUrl: 'partials/access.html',
+        controller: 'AccessCtrl'
+      })
+      .when("/vendors", {
+        templateUrl: 'partials/vendors.html',
+        controller: 'VendorCtrl'
+      })
+      .when("/additionalnotes", {
+        templateUrl: 'partials/additionalnotes.html',
+        controller: 'AdditionalNotesCtrl'
+      })
       .when("/reportarchives", {
         templateUrl: 'partials/reportarchives.html',
         controller: 'ReportArchivesCtrl'
-      });
+      });  
 });

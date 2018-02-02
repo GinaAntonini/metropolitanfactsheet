@@ -1,0 +1,49 @@
+{
+	"properties": {
+		"property0": { 
+            "propertyName": "4th & Monroe Condominiums",
+            "taxIDnumber": "80-0937648",
+            "propertyManager": "Teddy Christenberry",
+            "address": "371 Monroe Street, Nashville TN 37208",
+            "propertyType": "Condominiums",
+			"numberOfBuildings": 11,
+			"numberOfUnits": 39,
+            "gateAccess": "N/A",
+            "fireAlarmPassword": "66274",
+            "boardMembers": "Stella Vazna 731-610-2504; Amy Bryan 615-497-8986",
+            "onSiteContact": "See Board Members",
+            "waterShutOff": "Inside individual units",
+            "uid": ""
+        },
+        "property1": { 
+            "propertyName": "12th & Archer",
+            "taxIDnumber": "80-0937648",
+            "propertyManager": "Teddy Christenberry",
+            "address": "371 Monroe Street, Nashville TN 37208",
+            "propertyType": "Condominiums",
+			"numberOfBuildings": 11,
+			"numberOfUnits": 39,
+            "gateAccess": "N/A",
+            "fireAlarmPassword": "66274",
+            "boardMembers": "Stella Vazna 731-610-2504; Amy Bryan 615-497-8986",
+            "onSiteContact": "See Board Members",
+            "waterShutOff": "Inside individual units",
+            "uid": ""
+        },
+        "property2": { 
+            "propertyName": "320 Broadway",
+            "taxIDnumber": "80-0937648",
+            "propertyManager": "Teddy Christenberry",
+            "address": "371 Monroe Street, Nashville TN 37208",
+            "propertyType": "Condominiums",
+			"numberOfBuildings": 11,
+			"numberOfUnits": 39,
+            "gateAccess": "N/A",
+            "fireAlarmPassword": "66274",
+            "boardMembers": "Stella Vazna 731-610-2504; Amy Bryan 615-497-8986",
+            "onSiteContact": "See Board Members",
+            "waterShutOff": "Inside individual units",
+            "uid": ""
+        }
+    }
+}
