@@ -12,7 +12,7 @@
             
                     <tbody ng-repeat="property in properties">
                       <tr>
-                        <td>{{property.propertyName}}</td>
+                        <td ng-click="viewPropertyDetail(property.id)">{{property.propertyName}}</td>
                         <td>{{property.propertyManager}}</td>
                         <td>{{property.city}}</td>
                       </tr>

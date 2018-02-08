@@ -22,9 +22,14 @@ app.service("PropertyInfoService", function($http, $q, FIREBASE_CONFIG){
 		return $http.post(`${FIREBASE_CONFIG.databaseURL}/properties.json`, JSON.stringify(newProperty));
     };
 
+    const getSingleProperty = (propertyId) => {
+      return $http.get(`${FIREBASE_CONFIG.databaseURL}/properties/${propertyId}.json`);
+    };
+
  
     return {
         getPropertyInfoFromFirebase,
+        getSingleProperty,
         postNewProperty
     };
 });
