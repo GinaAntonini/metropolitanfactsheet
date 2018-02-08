@@ -1,0 +1,25 @@
+<div class="container" ng-controller="ViewPropertiesCtrl">
+    <div class="row">
+            <h2 class="taskProjectHeadline">Property List</h2>
+            <table class="highlight">
+                    <thead>
+                      <tr>
+                          <th>Property Name</th>
+                          <th>Manager Name</th>
+                          <th>Location</th>
+                      </tr>
+                    </thead>
+            
+                    <tbody ng-repeat="property in properties">
+                      <tr>
+                        <td>{{property.propertyName}}</td>
+                        <td>{{property.propertyManager}}</td>
+                        <td>{{property.city}}</td>
+                      </tr>
+                    </tbody>
+                  </table>
+    </div>
+</div>
+
+
+
