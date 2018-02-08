@@ -1,5 +1,20 @@
-<div class="container-fluid" id="propertyinfo" ng-contoller="PropertyDetailCtrl">
-    <div>
+<div class="container" id="propertyinfo" ng-contoller="PropertyDetailCtrl">
+    <h3>{{property.propertyName}}</h3>
+    <ul>
+        <li>Manager: {{property.propertyManager}}</li>
+        <li>Tax ID: {{property.taxIDnumber}}</li>
+        <li>Property Address: {{property.address}} </li>
+        <li>City: {{property.city}}</li>
+        <li>Property Type: {{property.propertyType}}</li>
+        <li>Number of Buildings: {{property.numberOfBuildings}}</li>
+        <li>Number of Units: {{property.numberOfUnits}}</li>
+        <li>Fire Alarm Password: {{property.fireAlarmPassword}}</li>
+    </ul>
+    
+       
+     
+
+    <!-- <div>
         <div class="col-md-12">
             <div class="col-md-6" ng-click="getToGeneral()">
                 <div class="thumbnail">
@@ -33,5 +48,5 @@
                     </div>
                 </div>
             </div>
-    </div>
+    </div> -->
 </div>

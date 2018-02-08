@@ -35,7 +35,7 @@ app.config(function($routeProvider){
         templateUrl: 'partials/addnewincident.html',
         controller: 'AddNewIncidentCtrl'
       })
-      .when("/propertydetail", {
+      .when("/propertydetail/:id", {
         templateUrl: 'partials/propertydetail.html',
         controller: 'PropertyDetailCtrl'
       })
