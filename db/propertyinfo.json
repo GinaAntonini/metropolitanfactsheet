@@ -50,5 +50,15 @@
             "waterShutOff": "Inside individual units",
             "uid": "1234"
         }
+    },
+    "boards":{
+        "board0": {
+            "propertyId": 1,
+            "boardName": "4th & Monroe Condominiums",
+            "boardmember1": "Board Member 1 615-xxx-xxxx",
+            "boardmember1": "Board Member 1 615-xxx-xxxx",
+            "boardmember1": "Board Member 1 615-xxx-xxxx"
+        },
+        "board1":
     }
 }

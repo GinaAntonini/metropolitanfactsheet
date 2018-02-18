@@ -14,15 +14,17 @@
 
 <body ng-app="MPM-SearchBinder">
     <div ng-include="'./partials/navbar.html'"></div>
-    <div class="col-xs-10 col-xs-offset-1" ng-view></div>
+    <div class="viewer col-xs-10 col-xs-offset-1" ng-view></div>
 
     <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
     <script type="text/javascript" src="./lib/node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script type="text/javascript" src="./lib/node_modules/angular/angular.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-materialize/0.2.2/angular-materialize.min.js"></script>
     <script type="text/javascript" src="./lib/node_modules/angular-route/angular-route.min.js"></script>
     <script type="text/javascript" src="./lib/node_modules/angular-sanitize/angular-sanitize.min.js"></script>
     <script type="text/javascript" src="./lib/node_modules/angular-animate/angular-animate.min.js"></script>
+    <script type="text/javascript" src="./lib/node_modules/angular-touch/angular-touch.min.js"></script>
     <script type="text/javascript" src="./lib/node_modules/mobile-angular-ui/dist/js/mobile-angular-ui.min.js"></script>
     
     <script type="text/javascript" src="./javascripts/app.js"></script>
@@ -30,6 +32,7 @@
     <script type="text/javascript" src="./javascripts/AppConfig.js"></script>
 
     <script type="text/javascript" src="./javascripts/services/PropertyInfoService.js"></script>
+    <script type="text/javascript" src="./javascripts/services/VendorService.js"></script>
 
     <script type="text/javascript" src="./javascripts/controllers/PropertyInfoCtrl.js"></script>
     <script type="text/javascript" src="./javascripts/controllers/ReportsCtrl.js"></script>
@@ -39,10 +42,10 @@
     <script type="text/javascript" src="./javascripts/controllers/AddNewPropertyCtrl.js"></script>
     <script type="text/javascript" src="./javascripts/controllers/ReportArchivesCtrl.js"></script>
     <script type="text/javascript" src="./javascripts/controllers/ViewPropertiesCtrl.js"></script>
-    <script type="text/javascript" src="./javascripts/controllers/AccessCtrl.js"></script>
     <script type="text/javascript" src="./javascripts/controllers/GeneralCtrl.js"></script>
     <script type="text/javascript" src="./javascripts/controllers/PropertyDetailCtrl.js"></script>
     <script type="text/javascript" src="./javascripts/controllers/VendorsCtrl.js"></script>
+    <script type="text/javascript" src="./javascripts/controllers/VendorPhonebookCtrl.js"></script>
     <script type="text/javascript" src="./javascripts/controllers/AdditionalNotesCtrl.js"></script>
 
 </body>

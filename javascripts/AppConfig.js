@@ -55,6 +55,10 @@ app.config(function($routeProvider){
         templateUrl: 'partials/additionalnotes.html',
         controller: 'AdditionalNotesCtrl'
       })
+      .when("/vendorphonebook", {
+        templateUrl: 'partials/vendorphonebook.html',
+        controller: 'VendorPhonebookCtrl'
+      })
       .when("/reportarchives", {
         templateUrl: 'partials/reportarchives.html',
         controller: 'ReportArchivesCtrl'
