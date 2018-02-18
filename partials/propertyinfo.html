@@ -1,29 +1,31 @@
-<div class="container-fluid" id="propertyinfo" ng-controller="PropertyInfoCtrl">
-    <div>
-        <div class="col-md-12">
-            <div class="col-md-6" ng-click="getToSearch()">
-                <div class="thumbnail">
-                    <img alt="Bootstrap Thumbnail First" src="images/search.png" />
-                    <div class="caption text-center">
-                        <h4>Search</h4>
-                    </div>
-                </div>
+<div class="container" id="propertyinfo" ng-controller="PropertyInfoCtrl">
+    <div class="row">
+        <div ng-click="getToSearch()">
+        <div class="col s12 m3">
+          <div class="card blue darken-2">
+            <div class="card-content white-text">
+              <span class="card-title">Search Properties</span>
             </div>
-            <div class="col-md-6" ng-click="getToViewProperties()">
-                <div class="thumbnail">
-                    <img alt="Bootstrap Thumbnail Second" src="/images/house.png" />
-                    <div class="caption text-center">
-                        <h4>View Properties</h4>
-                    </div>
-                </div>
+          </div>
+        </div>
+      </div>
+      <div ng-click="getToViewProperties()">
+        <div class="col s12 m3">
+          <div class="card blue darken-2">
+            <div class="card-content white-text">
+              <span class="card-title">View Properties</span>
             </div>
-            <div class="col-md-6" ng-click="getToAddNewProperty()">
-                <div class="thumbnail">
-                    <img alt="Bootstrap Thumbnail Third" src="images/add.png" />
-                    <div class="caption text-center">
-                        <h4>Add New Property</h4>
-                    </div>
-                </div>
+          </div>
+        </div>
+      </div>
+      <div ng-click="getToAddNewProperty()">
+        <div class="col s12 m3">
+          <div class="card blue darken-2">
+            <div class="card-content white-text">
+              <span class="card-title">Add New Property</span>
             </div>
+          </div>
+        </div>
+      </div>
     </div>
 </div>
