@@ -1,28 +1,41 @@
-<div class="container-fluid" id="dashboard" ng-controller="DashboardCtrl">
-        <div>
-            <div class="col-md-12">
-                <div class="col-md-6" ng-click="getToPropertyInfo()">
-                    <div class="thumbnail">
-                        <img alt="Bootstrap Thumbnail First" src="images/house.png" />
-                        <div class="caption text-center">
-                            <h4>Property Info</h4>
-                        </div>
-                    </div>
+<div class="container" id="propertyinfo" ng-controller="DashboardCtrl">
+        <div class="row">
+            <div ng-click="getToSearch()">
+            <div class="col s12 m3">
+              <div class="card blue darken-2">
+                <div class="card-content white-text">
+                  <span class="card-title">Search</span>
                 </div>
-                <div class="row">
-                    <div class="col s12 m6">
-                      <div class="card blue-grey darken-1">
-                        <div class="card-content white-text">
-                          <span class="card-title" ng-click="getToReports()"></span>>Reports</span>
-                          <p>View emergency reports here.</p>
-                        </div>
-                        <div class="card-action">
-                          <a href="#">This is a link</a>
-                          <a href="#">This is a link</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
+              </div>
+            </div>
+          </div>
+          <div ng-click="getToViewProperties()">
+            <div class="col s12 m3">
+              <div class="card blue darken-2">
+                <div class="card-content white-text">
+                  <span class="card-title">Property Info</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div ng-click="getToReports()">
+            <div class="col s12 m3">
+              <div class="card blue darken-2">
+                <div class="card-content white-text">
+                  <span class="card-title">Reports</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div ng-click="getToVendors()">
+            <div class="col s12 m3">
+              <div class="card blue darken-2">
+                <div class="card-content white-text">
+                  <span class="card-title">Vendors</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
     </div>
+    
