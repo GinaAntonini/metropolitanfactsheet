@@ -2,7 +2,7 @@
 
 app.controller("ViewPropertiesCtrl", function($location, $rootScope, $routeParams, $scope, PropertyInfoService){
 
-    const getProperties = (propertyName) => {
+    const getProperties = () => {
         PropertyInfoService.getPropertyInfoFromFirebase($rootScope.uid).then((results) => {
         $scope.properties = results;
     }).catch((err) => {
