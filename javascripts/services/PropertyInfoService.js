@@ -2,10 +2,10 @@
 
 app.service("PropertyInfoService", function($http, $q, FIREBASE_CONFIG){
 
-  const getPropertyInfoFromFirebase = () => {
+  const getPropertyInfoFromFirebase = (userUid) => {
 		let properties = [];
     return $q((resolve, reject) => {
-      $http.get(`${FIREBASE_CONFIG.databaseURL}/properties.json?orderBy="uid"`).then((results) => {
+      $http.get(`${FIREBASE_CONFIG.databaseURL}/properties.json?orderBy="uid"&equalTo="${userUid}"`).then((results) => {
         let fbProperties = results.data;
         Object.keys(fbProperties).forEach((key) => {
           fbProperties[key].id = key;

@@ -1,10 +1,10 @@
 "use strict";
 
-app.controller("AddNewPropertyCtrl", function($location, $rootScope, $scope){
+app.controller("AddNewPropertyCtrl", function($location, $rootScope, $scope, PropertyInfoService){
 
     $scope.addNewPropertyToFirebase = () => {
-        $scope.newProject.uid = $rootScope.uid;
-        ProjectService.postNewProperty($scope.newProperty).then((results) => {
+        $scope.newProperty.uid = $rootScope.uid;
+        PropertyInfoService.postNewProperty($scope.newProperty).then((results) => {
             $scope.newProperty = {};
                 $location.url("/viewproperties");
         }).catch((error) => {
