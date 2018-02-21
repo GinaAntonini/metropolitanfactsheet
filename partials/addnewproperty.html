@@ -2,53 +2,59 @@
         <form class="col s12">
           <div class="row">
             <div class="input-field inline col s6">
-              <input id="property_name" type="text" class="validate">
+              <input id="property_name" type="text" class="validate" ng-model="newProperty.propertyName">
               <label for="property_name">Property Name</label>
             </div>
             <div class="input-field col s6">
-              <input id="taxId" type="text" class="validate">
+              <input id="taxId" type="text" class="validate" ng-model="newProperty.taxIDnumber">
               <label for="taxId_number">Tax ID Number</label>
             </div>
           </div>
           <div class="row">
             <div class="input-field col s12">
-              <input id="property_manager" type="text" class="validate">
+              <input id="property_manager" type="text" class="validate" ng-model="newProperty.propertyManager">
               <label for="property_manager">Property Manager</label>
             </div>
           </div>
           <div class="row">
             <div class="input-field col s12">
-              <input id="address" type="text" class="validate">
+              <input id="address" type="text" class="validate" ng-model="newProperty.address">
               <label for="address">Address</label>
             </div>
           </div>
           <div class="row">
             <div class="input-field col s12">
-              <input id="property_type" type="text" class="validate">
+              <input id="city" type="text" class="validate" ng-model="newProperty.city">
+              <label for="city">City</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="property_type" type="text" class="validate" ng-model="newProperty.propertyType">
               <label for="property_type">Property Type</label>
             </div>
           </div>
           <div class="row">
             <div class="input-field col s12">
-                <input id="numberOfBuildings" type="number" class="validate">
+                <input id="numberOfBuildings" type="number" class="validate" ng-model="newProperty.numberOfBuildings">
                 <label for="number_of_Buildings">Number of Buildings</label>
             </div>
           </div>
           <div class="row">
             <div class="input-field col s12">
-                <input id="numberOfUnits" type="number" class="validate">
+                <input id="numberOfUnits" type="number" class="validate" ng-model="newProperty.numberOfUnits">
                 <label for="number_of_Units">Number of Units</label>
             </div>
           </div>
           <div class="row">
             <div class="input-field col s12">
-                <input id="gateAccess" type="" class="validate">
+                <input id="gateAccess" type="" class="validate" ng-model="newProperty.gateAccess">
                 <label for="gateAccess">Gate Access</label>
             </div>
           </div>
           <div class="row">
             <div class="input-field col s12">
-                <input id="fireAlarmPassword" class="validate">
+                <input id="fireAlarmPassword" class="validate" ng-model="newProperty.fireAlarmPassword">
                 <label for="fireAlarmPassword">Fire Alarm Password</label>
             </div>
           </div>
