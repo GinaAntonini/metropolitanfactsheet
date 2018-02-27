@@ -69,15 +69,11 @@ app.config(function($routeProvider){
       })
       .when("/vendors", {
         templateUrl: 'partials/vendors.html',
-        controller: 'VendorCtrl'
+        controller: 'VendorsCtrl'
       })
       .when("/additionalnotes", {
         templateUrl: 'partials/additionalnotes.html',
         controller: 'AdditionalNotesCtrl'
-      })
-      .when("/vendorphonebook", {
-        templateUrl: 'partials/vendorphonebook.html',
-        controller: 'VendorPhonebookCtrl'
       })
       .when("/login", {		
         templateUrl: 'partials/login.html',		
