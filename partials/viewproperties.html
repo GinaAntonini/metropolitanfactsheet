@@ -1,4 +1,9 @@
 <div class="container" ng-controller="ViewPropertiesCtrl">
+    <div id="custom-search-input">
+        <div class="searchbar">
+            <input class="searchinput" type="text" placeholder="Search" ng-model="searchText"/>
+        </div>
+    </div>
     <div class="row">
             <h2 class="taskProjectHeadline">Property List</h2>
             <table class="highlight">
@@ -10,7 +15,7 @@
                       </tr>
                     </thead>
             
-                    <tbody ng-repeat="property in properties">
+                    <tbody ng-repeat="property in properties | filter: searchText | orderBy: 'propertyName'">
                       <tr>
                         <td ng-click="viewPropertyDetail(property.id)">{{property.propertyName}}</td>
                         <td>{{property.propertyManager}}</td>
