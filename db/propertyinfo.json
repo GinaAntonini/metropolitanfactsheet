@@ -1587,67 +1587,88 @@
             "vendorId": 1,
             "vendorName": "Affilliated Monitoring",
             "phoneNumber": "1-800-434-4000",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor1": {
             "vendorId": 2,
             "vendorName": "Robins Insurance",
             "phoneNumber": "615-665-9207",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor2": {
             "vendorId": 3,
             "vendorName": "Nashville Electric Service",
             "phoneNumber": "615-736-6900",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor3": {
             "vendorId": 4,
             "vendorName": "Metro Water",
             "phoneNumber": "615-862-4600",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor4": {
             "vendorId": 5,
             "vendorName": "CAU/Rothberg",
             "phoneNumber": "615-997-1822",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor5": {
             "vendorId": 6,
             "vendorName": "State Auto Owners",
             "phoneNumber": "615-515-6000",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor6": {
             "vendorId": 7,
             "vendorName": "Creative Alarms Monitoring",
             "phoneNumber": "1-800-652-5276",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor7": {
             "vendorId": 8,
             "vendorName": "Tyco",
             "phoneNumber": "615-348-5134",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor8": {
             "vendorId": 9,
             "vendorName": "Nashville Machiner",
             "phoneNumber": "615-256-5251",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor9": {
             "vendorId": 10,
             "vendorName": "James A. Rothberg & Associates",
             "phoneNumber": "615-997-1822",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "Insurance",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor10": {
             "vendorId": 11,
             "vendorName": "Hiller Plumbing",
             "phoneNumber": "615-292-6110",
-            "contactName": ""
+            "fieldOfWork": "Plumbing",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor11": {
             "vendorId": 12,
@@ -1659,73 +1680,81 @@
             "vendorId": 13,
             "vendorName": "Tri-County Garage",
             "phoneNumber": "615-360-3535",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor13": {
             "vendorId": 14,
             "vendorName": "West Nashville Towing",
             "phoneNumber": "615-350-5800",
-            "contactName": ""
-        },
-        "vendor14": {
-            "vendorId": 15,
-            "vendorName": "Paul Davis Restoration",
-            "phoneNumber": "615-837-4400",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "Towing",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor15": {
             "vendorId": 16,
             "vendorName": "Republic Plumbing",
             "phoneNumber": "615-456-9136",
-            "contactName": "Andy Ward"
+            "contactName": "Andy Ward",
+            "fieldOfWork": "Plumbing",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor16": {
             "vendorId": 17,
             "vendorName": "The Drain Guy",
             "phoneNumber": "615-767-9345",
-            "contactName": "Mark"
+            "contactName": "Mark",
+            "fieldOfWork": "Plumbing",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor17": {
             "vendorId": 18,
             "vendorName": "Buchi Plumbing",
             "phoneNumber": "615-242-1806",
-            "contactName": ""
-        },
-        "vendor18": {
-            "vendorId": 19,
-            "vendorName": "West Nashville Wrecker Service",
-            "phoneNumber": "615-350-5800",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "Plumbing",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor19": {
             "vendorId": 20,
             "vendorName": "Echo",
             "phoneNumber": "615-946-5760",
-            "contactName": "Ed Pizarro"
+            "contactName": "Ed Pizarro",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor20": {
             "vendorId": 21,
             "vendorName": "Jack Ward Plumbing",
             "phoneNumber": "615-866-2812",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "Plumbing",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor21": {
             "vendorId": 22,
             "vendorName": "Energy Command",
             "phoneNumber": "615-615-297-6195; 615-417-6195",
-            "contactName": "Jeff Leake"
+            "contactName": "Jeff Leake",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor22": {
             "vendorId": 23,
             "vendorName": "West Nashville Wrecker Service",
             "phoneNumber": "615-350-5800",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor23": {
             "vendorId": 24,
             "vendorName": "Sunrise",
             "phoneNumber": "615-405-0022",
-            "contactName": "bob Wellerding"
+            "contactName": "bob Wellerding",
+            "fieldOfWork": "Landscaping",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor24": {
             "vendorId": 25,
@@ -1737,367 +1766,481 @@
             "vendorId": 26,
             "vendorName": "State Farm",
             "phoneNumber": "615-320-3016",
-            "contactName": "Jeff Summers"
+            "contactName": "Jeff Summers",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor26": {
             "vendorId": 27,
             "vendorName": "ProLine Fence",
             "phoneNumber": "615-775-4485",
-            "contactName": "Alan Brewer"
+            "contactName": "Alan Brewer",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor27": {
             "vendorId": 28,
             "vendorName": "Metropolitan Maintenance Group",
             "phoneNumber": "615-569-3682",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor28": {
             "vendorId": 29,
             "vendorName": "ACT",
             "phoneNumber": "615-333-6300",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor29": {
             "vendorId": 30,
             "vendorName": "Case Restoration",
             "phoneNumber": "615-291-2800",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor30": {
             "vendorId": 31,
             "vendorName": "City of Brentwood",
             "phoneNumber": "615-661-7061",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor31": {
             "vendorId": 32,
             "vendorName": "Pye. Barker Fire & Safety",
             "phoneNumber": "615-256-5669",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor32": {
             "vendorId": 33,
             "vendorName": "CAU - QBE ReInsurance Corp",
             "phoneNumber": "615-997-1822",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor33": {
             "vendorId": 34,
-            "vendorName": "Nashville Machine Elebator Company",
+            "vendorName": "Nashville Machine Elevator Company",
             "phoneNumber": "615-256-5251",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor34": {
             "vendorId": 35,
             "vendorName": "Jack Ward & Sons",
             "phoneNumber": "615-227-2811",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor35": {
             "vendorId": 36,
             "vendorName": "Anchor Electric",
             "phoneNumber": "615-860-3923",
-            "contactName": "Brian Jones"
+            "contactName": "Brian Jones",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor36": {
             "vendorId": 37,
             "vendorName": "Schlage Security",
             "phoneNumber": "",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor 37": {
             "vendorId": 38,
             "vendorName": "Sharp, Robbins & Popwell",
             "phoneNumber": "615-970-2540",
-            "contactName": "Jere Shipley"
-        },
-        "vendor 38": {
-            "vendorId": 39,
-            "vendorName": "Robert Swafford",
-            "phoneNumber": "615-569-3682",
-            "contactName": ""
+            "contactName": "Jere Shipley",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor39": {
             "vendorId": 40,
             "vendorName": "Matthew Bowling",
             "phoneNumber": "615-678-5399",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "Insurance",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor40": {
             "vendorId": 41,
             "vendorName": "Nolensville Utility District",
             "phoneNumber": "615-776-2511",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor41": {
             "vendorId": 42,
             "vendorName": "McCauley's Landscaping",
             "phoneNumber": "615-394-1172",
-            "contactName": "Ray McCauley"
+            "contactName": "Ray McCauley",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor42": {
             "vendorId": 43,
             "vendorName": "Allen Brewer",
             "phoneNumber": "615-775-4485",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor43": {
             "vendorId": 44,
             "vendorName": "Paul Davis Restoration",
             "phoneNumber": "615-837-4400",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor44": {
             "vendorId": 45,
             "vendorName": "Country Mutual Financial",
             "phoneNumber": "866-268-6879",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor45": {
             "vendorId": 46,
             "vendorName": "Pristine Properties Landscaping",
             "phoneNumber": "615-509-3230",
-            "contactName": "Mike Nelson"
+            "contactName": "Mike Nelson",
+            "fieldOfWork": "Landscaping",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor46": {
             "vendorId": 47,
             "vendorName": "Cherokee Electric",
             "phoneNumber": "615-308-3800",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor47": {
             "vendorId": 48,
             "vendorName": "City of Lebanon",
             "phoneNumber": "615-444-0825",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor48": {
             "vendorId": 49,
             "vendorName": "Old South Landscaping",
             "phoneNumber": "615-533-0314",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "Landscaping",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor49": {
             "vendorId": 50,
             "vendorName": "Duncan Security Systems",
             "phoneNumber": "615-356-3594",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor50": {
             "vendorId": 51,
             "vendorName": "Randy Piper Plumbing",
             "phoneNumber": "615-957-2325",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor51": {
             "vendorId": 52,
             "vendorName": "City of Franklin Water",
             "phoneNumber": "615-794-4572",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor52": {
             "vendorId": 53,
             "vendorName": "Nationwide",
             "phoneNumber": "615-889-3640",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor53": {
             "vendorId": 54,
             "vendorName": "alarm Monitoring Facility",
             "phoneNumber": "615-889-9256",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor54": {
             "vendorId": 55,
             "vendorName": "Robins-Saudra Etchison",
             "phoneNumber": "615-665-9207",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor55": {
             "vendorId": 56,
             "vendorName": "Kone",
             "phoneNumber": "1-877-276-8691",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "Elevator",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor56": {
             "vendorId": 57,
             "vendorName": "Arts Quality Plumbing",
             "phoneNumber": "615-294-6497",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "Plumbing",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor57": {
             "vendorId": 58,
             "vendorName": "All Phase Electric",
             "phoneNumber": "615-305-3867",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor58": {
             "vendorId": 59,
             "vendorName": "Kings III",
             "phoneNumber": "1-855-760-4888",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor59": {
             "vendorId": 60,
             "vendorName": "Erie Insurance",
             "phoneNumber": "703-583-4600",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor60": {
             "vendorId": 61,
             "vendorName": "Century Fire Protection",
             "phoneNumber": "615-742-0050",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor61": {
             "vendorId": 62,
             "vendorName": "TurfCare Landscapes",
             "phoneNumber": "615-292-4121",
-            "contactName": "Jamie Dickey"
+            "contactName": "Jamie Dickey",
+            "fieldOfWork": "Landscaping",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor62": {
             "vendorId": 63,
             "vendorName": "Rain Inc.",
             "phoneNumber": "615-405-0364",
-            "contactName": "Dave Flemming"
+            "contactName": "Dave Flemming",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor63": {
             "vendorId": 64,
             "vendorName": "Pools by Elio",
             "phoneNumber": "615-354-4405",
-            "contactName": "Levi Jones"
+            "contactName": "Levi Jones",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor64": {
             "vendorId": 65,
             "vendorName": "All Star Fire Sprinkler",
             "phoneNumber": "615-865-5600",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor65": {
             "vendorId": 66,
             "vendorName": "Otis Elevator",
             "phoneNumber": "1-800-233-6847",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor66": {
             "vendorId": 67,
             "vendorName": "Myers Plumbing",
             "phoneNumber": "615-356-8811",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "Plumbing",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor67": {
             "vendorId": 68,
             "vendorName": "Precision Gate Services",
             "phoneNumber": "615-714-1580",
-            "contactName": "Chad Mack"
+            "contactName": "Chad Mack",
+            "fieldOfWork": "Gate",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor68": {
             "vendorId": 69,
             "vendorName": "Nashville Booting",
             "phoneNumber": "866-383-6060",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor69": {
             "vendorId": 70,
             "vendorName": "Elantra Gates",
             "phoneNumber": "615-298-4283",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "Gate",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor70": {
             "vendorId": 71,
             "vendorName": "Grange Ins-Spann Insurance",
             "phoneNumber": "615-383-8000",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "Insurance",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor71": {
             "vendorId": 72,
             "vendorName": "Schaffer Plumbing",
             "phoneNumber": "615-375-8338",
-            "contactName": "Dwight Eblen"
+            "contactName": "Dwight Eblen",
+            "fieldOfWork": "Plumbing",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor72": {
             "vendorId": 73,
             "vendorName": "Southern Mechanical",
             "phoneNumber": "615-251-4555",
-            "contactName": "Whit Whitley"
+            "contactName": "Whit Whitley",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor73": {
             "vendorId": 74,
             "vendorName": "Crawford Doors",
             "phoneNumber": "615-244-4051",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor74": {
             "vendorId": 75,
             "vendorName": "Nixon Power Services",
             "phoneNumber": "615-309-5823",
-            "contactName": "Nathan"
+            "contactName": "Nathan",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor75": {
             "vendorId": 76,
-            "vendorName": "Langley & Tower",
+            "vendorName": "Langley & Taylor",
             "phoneNumber": "615-244-9008",
-            "contactName": "Joe Wood"
+            "contactName": "Joe Wood",
+            "fieldOfWork": "Pool",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor76": {
             "vendorId": 77,
             "vendorName": "Roofing Solutions",
             "phoneNumber": "615-533-3621",
-            "contactName": "Tony Todd"
+            "contactName": "Tony Todd",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor77": {
             "vendorId": 78,
             "vendorName": "Lee Company",
             "phoneNumber": "615-567-1000",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor78": {
             "vendorId": 79,
             "vendorName": "Raymond Preston Reed",
             "phoneNumber": "615-866-2728",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor79": {
             "vendorId": 80,
             "vendorName": "Sweetwater Pools",
             "phoneNumber": "615-788-5672",
-            "contactName": "Shawn Blue"
+            "contactName": "Shawn Blue",
+            "fieldOfWork": "Pool",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor80": {
             "vendorId": 81,
             "vendorName": "Gray's Disposal",
             "phoneNumber": "615-255-6921",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "Trash Removal",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor81": {
             "vendorId": 82,
             "vendorName": "Danielle Saidor",
             "phoneNumber": "615-517-5445",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "Cleaning",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor82": {
             "vendorId": 83,
             "vendorName": "Rarrow Exterminators",
             "phoneNumber": "615-279-1355",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor83": {
             "vendorId": 84,
             "vendorName": "Harpeth Valley Utility",
             "phoneNumber": "615-352-7076",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor84": {
             "vendorId": 85,
             "vendorName": "Frank Neal & Associates",
             "phoneNumber": "615-383-8874",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "Insurance",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         },
         "vendor85": {
             "vendorId": 86,
             "vendorName": "Eye in the Sky",
             "phoneNumber": "615-469-5688",
-            "contactName": ""
+            "contactName": "",
+            "fieldOfWork": "",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         }
     }
 

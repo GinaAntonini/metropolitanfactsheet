@@ -71,6 +71,10 @@ app.config(function($routeProvider){
         templateUrl: 'partials/vendors.html',
         controller: 'VendorsCtrl'
       })
+      .when("/vendordetail/:id", {
+        templateUrl: 'partials/vendordetail.html',
+        controller: 'VendorDetailCtrl'
+      })
       .when("/additionalnotes", {
         templateUrl: 'partials/additionalnotes.html',
         controller: 'AdditionalNotesCtrl'
