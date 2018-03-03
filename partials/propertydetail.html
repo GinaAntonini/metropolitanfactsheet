@@ -1,18 +1,80 @@
 <div class="container" id="propertyinfo" ng-contoller="PropertyDetailCtrl">
-    <h3>{{property.propertyName}}</h3>
-    <ul>
-        <li>Manager: {{property.propertyManager}}</li>
-        <li>Tax ID: {{property.taxIDnumber}}</li>
-        <li>Property Address: {{property.address}} </li>
-        <li>City: {{property.city}}</li>
-        <li>Property Type: {{property.propertyType}}</li>
-        <li>Number of Buildings: {{property.numberOfBuildings}}</li>
-        <li>Number of Units: {{property.numberOfUnits}}</li>
-        <li>Fire Alarm Password: {{property.fireAlarmPassword}}</li>
-    </ul>
-    
-       
-     
+    <h3>Property Info for {{property.propertyName}}</h3>
+        <ul>
+            <li>Manager: {{property.propertyManager}}</li>
+            <li>Tax ID: {{property.taxIDnumber}}</li>
+            <li>Property Address: {{property.address}} </li>
+            <li>City: {{property.city}}</li>
+            <li>Property Type: {{property.propertyType}}</li>
+            <li>Number of Buildings: {{property.numberOfBuildings}}</li>
+            <li>Number of Units: {{property.numberOfUnits}}</li>
+            <li>Fire Alarm Password: {{property.fireAlarmPassword}}</li>
+            <li>Gate Access Code: {{property.gateAccess}}</li>
+            <li>On Site Contact: {{property.onSiteContact}}</li>
+            <li>Water Shut Off Location: {{property.waterShutOff}}</li>
+        </ul>
+    <h3>Vendors for {{property.propertyName}}</h3>
+        <h4>Fire Alarm Vendor</h4>
+        <ul>
+            <li>Name: {{property.fireAlarmVendor}}</li>
+            <li>Phone Number:</li>
+            <li>Contact Name:</li>
+        </ul>
+        <h4>Insurance Vendor</h4>
+        <ul>
+            <li>Name: {{property.insuranceVendor}}</li>
+            <li>Phone Number:</li>
+            <li>Contact Name:</li>
+        </ul>
+        <h4>Elevator Vendor</h4>
+        <ul>
+            <li>Name: {{property.elevatorVendor}}</li>
+            <li>Phone Number:</li>
+            <li>Contact Name:</li>
+        </ul>
+        <h4>Plumbing Vendor</h4>
+        <ul>
+            <li>Name: {{property.plumbingVendor}}</li>
+            <li>Phone Number:</li>
+            <li>Contact Name:</li>
+        </ul>
+        <h4>Electrical Vendor</h4>
+        <ul>
+            <li>Name: {{property.electricalVendor}}</li>
+            <li>Phone Number:</li>
+            <li>Contact Name:</li>
+        </ul>
+        <h4>Gate Vendor</h4>
+        <ul>
+            <li>Name: {{property.gateVendor}}</li>
+            <li>Phone Number:</li>
+            <li>Contact Name:</li>
+        </ul>
+        <h4>Towing Vendor</h4>
+        <ul>
+            <li>Name: {{property.towingVendor}}</li>
+            <li>Phone Number:</li>
+            <li>Contact Name:</li>
+        </ul>
+        <h4>Emergency Remediation Vendor</h4>
+        <ul>
+            <li>Name: {{property.emergencyRemediationVendor}}</li>
+            <li>Phone Number:</li>
+            <li>Contact Name:</li>
+        </ul>
+        <h4>Electric Utility Company</h4>
+        <ul>
+            <li>Name: {{property.electricUtilityCompany}}</li>
+            <li>Phone Number:</li>
+            <li>Contact Name:</li>
+        </ul>
+        <h4>Water Utility Company</h4>
+        <ul>
+            <li>Name: {{property.waterUtilityCompany}}</li>
+            <li>Phone Number:</li>
+            <li>Contact Name:</li>
+        </ul>
+</div> 
 
     <!-- <div>
         <div class="col-md-12">
@@ -49,4 +111,3 @@
                 </div>
             </div>
     </div> -->
-</div>
