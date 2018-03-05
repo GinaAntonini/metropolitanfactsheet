@@ -1,16 +1,14 @@
 <div class="container" ng-controller="ViewPropertiesCtrl">
-    <div id="custom-search-input">
-        <div class="searchbar">
-            <input class="searchinput" type="text" placeholder="Search" ng-model="searchText"/>
+    <h2>Property List</h2>
+        <div>
+            <i class="fa fa-search"></i><input type="text" placeholder="Search..." ng-model="searchText">
         </div>
-    </div>
     <div class="row">
-            <h2 class="taskProjectHeadline">Property List</h2>
-                    <div ng-repeat="property in properties | filter: searchText | orderBy: 'propertyName'">
-                      <div ng-click="viewPropertyDetail(property.id)">
-                        <td>{{property.propertyName}}</td>
-                      </div>
-                    </div>
+        <div ng-repeat="property in properties | filter: searchText | orderBy: 'propertyName'">
+            <div class="propertylist" ng-click="viewPropertyDetail(property.id)">
+                <td>{{property.propertyName}}</td>
+            </div>
+        </div>
     </div>
 </div>
 
