@@ -18,6 +18,7 @@ app.service("PropertyInfoService", function($http, $q, FIREBASE_CONFIG){
     });
   };
 
+
     const postNewProperty = (newProperty) => {
 		return $http.post(`${FIREBASE_CONFIG.databaseURL}/properties.json`, JSON.stringify(newProperty));
     };
