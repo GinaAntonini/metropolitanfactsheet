@@ -1,4 +1,32 @@
 .viewer {
   margin-top: 5%;
-  height: 70%;
+  height: 80%;
   overflow: scroll; }
+
+.logo {
+  width: 50%; }
+
+.infobox {
+  -webkit-box-shadow: 10px 10px 24px -12px #807780;
+  -moz-box-shadow: 10px 10px 24px -12px #807780;
+  box-shadow: 10px 10px 24px -12px #807780;
+  padding: 2%;
+  margin: 2%; }
+
+.infobox {
+  color: white; }
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Open Sans', sans-serif; }
+
+.propertylist {
+  font-size: 20px;
+  font-family: 'Arvo', serif; }
+
+.infobox {
+  font-size: 20px;
+  font-family: 'Arvo', serif; }
+
+.title {
+  font-size: 25px;
+  font-family: 'Arvo', serif; }

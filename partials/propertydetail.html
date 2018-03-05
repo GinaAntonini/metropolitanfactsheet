@@ -1,113 +1,85 @@
-<div class="container" id="propertyinfo" ng-contoller="PropertyDetailCtrl">
-    <h3>Property Info for {{property.propertyName}}</h3>
-        <ul>
-            <li>Manager: {{property.propertyManager}}</li>
-            <li>Tax ID: {{property.taxIDnumber}}</li>
-            <li>Property Address: {{property.address}} </li>
-            <li>City: {{property.city}}</li>
-            <li>Property Type: {{property.propertyType}}</li>
-            <li>Number of Buildings: {{property.numberOfBuildings}}</li>
-            <li>Number of Units: {{property.numberOfUnits}}</li>
-            <li>Fire Alarm Password: {{property.fireAlarmPassword}}</li>
-            <li>Gate Access Code: {{property.gateAccess}}</li>
-            <li>On Site Contact: {{property.onSiteContact}}</li>
-            <li>Water Shut Off Location: {{property.waterShutOff}}</li>
-        </ul>
-    <h3>Vendors for {{property.propertyName}}</h3>
-        <h4>Fire Alarm Vendor</h4>
-        <ul>
-            <li>Name: {{property.fireAlarmVendor}}</li>
-            <li>Phone Number:</li>
-            <li>Contact Name:</li>
-        </ul>
-        <h4>Insurance Vendor</h4>
-        <ul>
-            <li>Name: {{property.insuranceVendor}}</li>
-            <li>Phone Number:</li>
-            <li>Contact Name:</li>
-        </ul>
-        <h4>Elevator Vendor</h4>
-        <ul>
-            <li>Name: {{property.elevatorVendor}}</li>
-            <li>Phone Number:</li>
-            <li>Contact Name:</li>
-        </ul>
-        <h4>Plumbing Vendor</h4>
-        <ul>
-            <li>Name: {{property.plumbingVendor}}</li>
-            <li>Phone Number:</li>
-            <li>Contact Name:</li>
-        </ul>
-        <h4>Electrical Vendor</h4>
-        <ul>
-            <li>Name: {{property.electricalVendor}}</li>
-            <li>Phone Number:</li>
-            <li>Contact Name:</li>
-        </ul>
-        <h4>Gate Vendor</h4>
-        <ul>
-            <li>Name: {{property.gateVendor}}</li>
-            <li>Phone Number:</li>
-            <li>Contact Name:</li>
-        </ul>
-        <h4>Towing Vendor</h4>
-        <ul>
-            <li>Name: {{property.towingVendor}}</li>
-            <li>Phone Number:</li>
-            <li>Contact Name:</li>
-        </ul>
-        <h4>Emergency Remediation Vendor</h4>
-        <ul>
-            <li>Name: {{property.emergencyRemediationVendor}}</li>
-            <li>Phone Number:</li>
-            <li>Contact Name:</li>
-        </ul>
-        <h4>Electric Utility Company</h4>
-        <ul>
-            <li>Name: {{property.electricUtilityCompany}}</li>
-            <li>Phone Number:</li>
-            <li>Contact Name:</li>
-        </ul>
-        <h4>Water Utility Company</h4>
-        <ul>
-            <li>Name: {{property.waterUtilityCompany}}</li>
-            <li>Phone Number:</li>
-            <li>Contact Name:</li>
-        </ul>
+<div id="propertyinfo" ng-contoller="PropertyDetailCtrl">
+    <div="row">
+        <h3>Property Info for {{property.propertyName}}</h3>
+            <div class="col s6 card blue darken-2 infobox">
+            <h4>General Info</h4>
+                    <ul>
+                        <li>Manager: {{property.propertyManager}}</li>
+                        <li>Tax ID: {{property.taxIDnumber}}</li>
+                        <li>Property Address: {{property.address}} </li>
+                        <li>City: {{property.city}}</li>
+                        <li>Property Type: {{property.propertyType}}</li>
+                        <li>Number of Buildings: {{property.numberOfBuildings}}</li>
+                        <li>Number of Units: {{property.numberOfUnits}}</li>
+                        <li>Fire Alarm Password: {{property.fireAlarmPassword}}</li>
+                        <li>Gate Access Code: {{property.gateAccess}}</li>
+                        <li>On Site Contact: {{property.onSiteContact}}</li>
+                        <li>Water Shut Off Location: {{property.waterShutOff}}</li>
+                    </ul>
+            </div>
+        <div class="col s6 card blue darken-2 infobox">
+            <h3>Vendor Info</h3>
+                <h4>Fire Alarm</h4>
+                <ul>
+                    <li>Name: {{property.fireAlarmVendor}}</li>
+                    <li>Phone Number:</li>
+                    <li>Contact Name:</li>
+                </ul>
+                <h4>Insurance</h4>
+                <ul>
+                    <li>Name: {{property.insuranceVendor}}</li>
+                    <li>Phone Number:</li>
+                    <li>Contact Name:</li>
+                </ul>
+                <h4>Elevator</h4>
+                <ul>
+                    <li>Name: {{property.elevatorVendor}}</li>
+                    <li>Phone Number:</li>
+                    <li>Contact Name:</li>
+                </ul>
+                <h4>Plumbing</h4>
+                <ul>
+                    <li>Name: {{property.plumbingVendor}}</li>
+                    <li>Phone Number:</li>
+                    <li>Contact Name:</li>
+                </ul>
+                <h4>Electrical</h4>
+                <ul>
+                    <li>Name: {{property.electricalVendor}}</li>
+                    <li>Phone Number:</li>
+                    <li>Contact Name:</li>
+                </ul>
+                <h4>Gate</h4>
+                <ul>
+                    <li>Name: {{property.gateVendor}}</li>
+                    <li>Phone Number:</li>
+                    <li>Contact Name:</li>
+                </ul>
+                <h4>Towing</h4>
+                <ul>
+                    <li>Name: {{property.towingVendor}}</li>
+                    <li>Phone Number:</li>
+                    <li>Contact Name:</li>
+                </ul>
+                <h4>Emergency Remediation</h4>
+                <ul>
+                    <li>Name: {{property.emergencyRemediationVendor}}</li>
+                    <li>Phone Number:</li>
+                    <li>Contact Name:</li>
+                </ul>
+                <h4>Electric Utility Company</h4>
+                <ul>
+                    <li>Name: {{property.electricUtilityCompany}}</li>
+                    <li>Phone Number:</li>
+                    <li>Contact Name:</li>
+                </ul>
+                <h4>Water Utility Company</h4>
+                <ul>
+                    <li>Name: {{property.waterUtilityCompany}}</li>
+                    <li>Phone Number:</li>
+                    <li>Contact Name:</li>
+                </ul>
+            </div>
+    </div>
 </div> 
 
-    <!-- <div>
-        <div class="col-md-12">
-            <div class="col-md-6" ng-click="getToGeneral()">
-                <div class="thumbnail">
-                    <img alt="Bootstrap Thumbnail First" src="images/general.png" />
-                    <div class="caption text-center">
-                        <h4>General</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6" ng-click="getToAccess()">
-                <div class="thumbnail">
-                    <img alt="Bootstrap Thumbnail Second" src="/images/access.png" />
-                    <div class="caption text-center">
-                        <h4>Access</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6" ng-click="getToVendors()">
-                <div class="thumbnail">
-                    <img alt="Bootstrap Thumbnail Third" src="images/vendor.png" />
-                    <div class="caption text-center">
-                        <h4>Vendors</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6" ng-click="getToAdditionalNotes()">
-                <div class="thumbnail">
-                    <img alt="Bootstrap Thumbnail Fourth" src="images/additional.png" />
-                    <div class="caption text-center">
-                        <h4>Additional Notes</h4>
-                    </div>
-                </div>
-            </div>
-    </div> -->

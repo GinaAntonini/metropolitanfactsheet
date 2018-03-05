@@ -1,6 +1,18 @@
 .viewer {
     margin-top: 5%;
-    height: 70%;
+    height: 80%;
     overflow: scroll;
 }
 
+.logo {
+    width: 50%;
+}
+
+.infobox {
+    -webkit-box-shadow: 10px 10px 24px -12px rgba(128,119,128,1);
+    -moz-box-shadow: 10px 10px 24px -12px rgba(128,119,128,1);
+    box-shadow: 10px 10px 24px -12px rgba(128,119,128,1);
+    padding: 2%;
+    margin: 2%;
+    
+}
