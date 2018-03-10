@@ -1,10 +1,16 @@
+body {
+  background-image: url(/images/sliders-bldgs.png);
+  background-repeat: no-repeat;
+  background-position: bottom; }
+
 .viewer {
   margin-top: 5%;
   height: 80%;
   overflow: scroll; }
 
-.logo {
-  width: 50%; }
+.signin {
+  margin: 2%;
+  padding: 5%; }
 
 .infobox {
   -webkit-box-shadow: 10px 10px 24px -12px #807780;
@@ -22,6 +28,18 @@ h1, h2, h3, h4, h5 {
 .propertylist {
   font-size: 20px;
   font-family: 'Arvo', serif; }
+
+.vendorlist {
+  font-size: 20px;
+  font-family: 'Arvo', serif; }
+
+.propertylist:hover {
+  background-color: gray;
+  color: white; }
+
+.vendorlist:hover {
+  background-color: gray;
+  color: white; }
 
 .infobox {
   font-size: 20px;

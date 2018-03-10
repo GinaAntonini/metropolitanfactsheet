@@ -1,7 +1,7 @@
 <div id="propertyinfo" ng-contoller="PropertyDetailCtrl">
     <div="row">
         <h3>Property Info for {{property.propertyName}}</h3>
-            <div class="col s6 card blue darken-2 infobox">
+            <div class="col s6 card blue darken-4 infobox">
             <h3>General Info</h3>
                     <ul>
                         <li>Manager: {{property.propertyManager}}</li>
@@ -17,68 +17,72 @@
                         <li>Water Shut Off Location: {{property.waterShutOff}}</li>
                     </ul>
             </div>
-        <div class="col s6 card blue darken-2 infobox">
+        <div class="row card blue darken-4 infobox">
             <h3>Vendor Info</h3>
+            <div class="col s6">
                 <h4>Fire Alarm</h4>
                 <ul>
-                    <li>Name: {{property.fireAlarmVendor}}</li>
-                    <li>Phone Number:</li>
-                    <li>Contact Name:</li>
+                    <li>Name: {{vendor.vendorName}}</li>
+                    <li>Phone Number: {{vendor.phoneNumber}}</li>
+                    <li>Contact Name: {{vendor.contactName}}</li>
                 </ul>
                 <h4>Insurance</h4>
                 <ul>
-                    <li>Name: {{property.insuranceVendor}}</li>
-                    <li>Phone Number:</li>
-                    <li>Contact Name:</li>
+                    <li>Name: {{vendor.vendorName}}</li>
+                    <li>Phone Number: {{vendor.phoneNumber}}</li>
+                    <li>Contact Name: {{vendor.contactName}}</li>
                 </ul>
                 <h4>Elevator</h4>
                 <ul>
-                    <li>Name: {{property.elevatorVendor}}</li>
-                    <li>Phone Number:</li>
-                    <li>Contact Name:</li>
+                    <li>Name: {{vendor.vendorName}}</li>
+                    <li>Phone Number: {{vendor.phoneNumber}}</li>
+                    <li>Contact Name: {{vendor.contactName}}</li>
                 </ul>
                 <h4>Plumbing</h4>
                 <ul>
-                    <li>Name: {{property.plumbingVendor}}</li>
-                    <li>Phone Number:</li>
-                    <li>Contact Name:</li>
+                    <li>Name: {{vendor.vendorName}}</li>
+                    <li>Phone Number: {{vendor.phoneNumber}}</li>
+                    <li>Contact Name: {{vendor.contactName}}</li>
                 </ul>
                 <h4>Electrical</h4>
                 <ul>
-                    <li>Name: {{property.electricalVendor}}</li>
-                    <li>Phone Number:</li>
-                    <li>Contact Name:</li>
+                    <li>Name: {{vendor.vendorName}}</li>
+                    <li>Phone Number: {{vendor.phoneNumber}}</li>
+                    <li>Contact Name: {{vendor.contactName}}</li>
                 </ul>
+                </div>
+                <div class="col s6">
                 <h4>Gate</h4>
                 <ul>
-                    <li>Name: {{property.gateVendor}}</li>
-                    <li>Phone Number:</li>
-                    <li>Contact Name:</li>
+                    <li>Name: {{vendor.vendorName}}</li>
+                    <li>Phone Number: {{vendor.phoneNumber}}</li>
+                    <li>Contact Name: {{vendor.contactName}}</li>
                 </ul>
                 <h4>Towing</h4>
                 <ul>
-                    <li>Name: {{property.towingVendor}}</li>
-                    <li>Phone Number:</li>
-                    <li>Contact Name:</li>
+                    <li>Name: {{vendor.vendorName}}</li>
+                    <li>Phone Number: {{vendor.phoneNumber}}</li>
+                    <li>Contact Name: {{vendor.contactName}}</li>
                 </ul>
                 <h4>Emergency Remediation</h4>
                 <ul>
-                    <li>Name: {{property.emergencyRemediationVendor}}</li>
-                    <li>Phone Number:</li>
-                    <li>Contact Name:</li>
+                    <li>Name: {{vendor.vendorName}}</li>
+                    <li>Phone Number: {{vendor.phoneNumber}}</li>
+                    <li>Contact Name: {{vendor.contactName}}</li>
                 </ul>
                 <h4>Electric Utility Company</h4>
                 <ul>
-                    <li>Name: {{property.electricUtilityCompany}}</li>
-                    <li>Phone Number:</li>
-                    <li>Contact Name:</li>
+                    <li>Name: {{vendor.vendorName}}</li>
+                    <li>Phone Number: {{vendor.phoneNumber}}</li>
+                    <li>Contact Name: {{vendor.contactName}}</li>
                 </ul>
                 <h4>Water Utility Company</h4>
                 <ul>
-                    <li>Name: {{property.waterUtilityCompany}}</li>
-                    <li>Phone Number:</li>
-                    <li>Contact Name:</li>
+                    <li>Name: {{vendor.vendorName}}</li>
+                    <li>Phone Number: {{vendor.phoneNumber}}</li>
+                    <li>Contact Name: {{vendor.contactName}}</li>
                 </ul>
+                </div>
             </div>
     </div>
 </div> 

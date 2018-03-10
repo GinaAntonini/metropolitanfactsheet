@@ -1,11 +1,17 @@
+body {
+    background-image: url(/images/sliders-bldgs.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
 .viewer {
     margin-top: 5%;
     height: 80%;
     overflow: scroll;
 }
 
-.logo {
-    width: 50%;
+.signin {
+    margin: 2%;
+    padding: 5%;
 }
 
 .infobox {

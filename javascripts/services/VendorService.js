@@ -9,9 +9,6 @@ app.service("VendorService", function($http, $q, FIREBASE_CONFIG){
         let fbVendors = results.data;
         Object.keys(fbVendors).forEach((key) => {
           fbVendors[key].id = key;
-          if (fbVendors[key].vendorId === vendorId) {
-            fbVendors.push(fbVendors[key]);  
-          } 
           vendors.push(fbVendors[key]);
         });
         resolve(vendors);

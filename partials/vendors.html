@@ -1,15 +1,10 @@
 <div class="container" ng-controller="VendorsCtrl">
-    <div class="container">
-        <div>Search</div>
-        <div id="custom-search-input">
-        <div class="searchbar">
-            <input class="searchinput" type="text" placeholder="Search" ng-model="searchText"/>
-        </div>
-    </div>
-    </div>
     <div class="row">
-            <h2>Vendor List</h2>
-            <table class="highlight">
+        <h2>Vendor List</h2>
+        <div>
+            <i class="fa fa-search"></i><input type="text" placeholder="Search..." ng-model="searchText">
+        </div>
+            <table>
                     <thead>
                       <tr>
                           <th>Vendor Name</th>
@@ -20,7 +15,7 @@
                     </thead>
             
                     <tbody ng-repeat="vendor in vendors | filter: searchText | orderBy: 'vendorName'">
-                      <tr>
+                      <tr class="vendorlist">
                         <td>{{vendor.vendorName}}</td>
                         <td>{{vendor.phoneNumber}}</td>
                         <td>{{vendor.contactName}}</td>

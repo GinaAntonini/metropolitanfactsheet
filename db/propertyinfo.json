@@ -16,7 +16,7 @@
             "onSiteContact": "See Board Members",
             "waterShutOff": "Inside individual units",
             "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2",
-            "fireAlarmVendor": "",
+            "fireAlarmVendor": 1,
             "insuranceVendor": "",
             "elevatorVendor": "",
             "plumbingVendor": "",
@@ -3388,6 +3388,27 @@
             "fieldOfWork": "",
             "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
         }
+    },
+    "boards": {
+        "board0": {
+            "boardId": 1,
+            "propertyId": 1,
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
+        },
+        "board1": {
+            "boardId": 1,
+            "propertyId": 1,
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
+        }
+    },
+    "boardMembers": {
+        "boardMember0": {
+            "boardId": 1,
+            "memberId": 1,
+            "fullName": "Bob Smith",
+            "phoneNumber": "615-516-2390",
+            "email": "bobsmith@comcast.net",
+            "uid": "rRQnE3hBrnPQsu6DmXTNRmvQEoe2"
+        }
     }
-
 }
