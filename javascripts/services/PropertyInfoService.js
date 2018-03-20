@@ -9,7 +9,6 @@ app.service("PropertyInfoService", function($http, $q, FIREBASE_CONFIG){
         let fbProperties = results.data;
         Object.keys(fbProperties).forEach((key) => {
           fbProperties[key].id = key;
-          
           properties.push(fbProperties[key]);
         });
         resolve(properties);

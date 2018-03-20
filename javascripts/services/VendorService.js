@@ -18,6 +18,22 @@ app.service("VendorService", function($http, $q, FIREBASE_CONFIG){
     });
   };
 
+  const getVendorIdByType = (vendorType) => {
+    let vendorId ;
+    return $q((resolve, reject) => {
+      $http.get(`${FIREBASE_CONFIG.databaseURL}/properties.json?orderBy="uid"&equalTo="${vendorType}"`).then((results) => {
+        let fbVendors = results.data;
+        Object.keys(fbVendors).forEach((key) => {
+          fbVendors[key].id = key;
+          vendorId.push(fbVendors[key]);
+        });
+        resolve(vendorId);
+      }).catch((err) => {
+        reject(err);
+      });
+    });
+  };
+
     const postNewVendor = (newVendor) => {
 		return $http.post(`${FIREBASE_CONFIG.databaseURL}/vendors.json`, JSON.stringify(newVendor));
     };
@@ -25,11 +41,11 @@ app.service("VendorService", function($http, $q, FIREBASE_CONFIG){
     const getSingleVendor = (vendorId) => {
       return $http.get(`${FIREBASE_CONFIG.databaseURL}/vendors/${vendorId}.json`);
     };
-
- 
+    
     return {
         getVendorInfoFromFirebase,
         getSingleVendor,
-        postNewVendor
+        postNewVendor,
+        getVendorIdByType
     };
 });
