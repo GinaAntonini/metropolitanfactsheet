@@ -15,22 +15,22 @@ app.service("PropertyInfoService", function($http, $q, FIREBASE_CONFIG){
       }).catch((err) => {
         reject(err);
       });
-    });
+  });
+};
+
+
+  const postNewProperty = (newProperty) => {
+	  return $http.post(`${FIREBASE_CONFIG.databaseURL}/properties.json`, JSON.stringify(newProperty));
   };
 
-
-    const postNewProperty = (newProperty) => {
-		return $http.post(`${FIREBASE_CONFIG.databaseURL}/properties.json`, JSON.stringify(newProperty));
-    };
-
-    const getSingleProperty = (propertyId) => {
-      return $http.get(`${FIREBASE_CONFIG.databaseURL}/properties/${propertyId}.json`);
-    };
+  const getSingleProperty = (propertyId) => {
+    return $http.get(`${FIREBASE_CONFIG.databaseURL}/properties/${propertyId}.json`);
+  };
 
  
-    return {
-        getPropertyInfoFromFirebase,
-        getSingleProperty,
-        postNewProperty
-    };
+  return {
+    getPropertyInfoFromFirebase,
+    getSingleProperty,
+    postNewProperty
+  };
 });

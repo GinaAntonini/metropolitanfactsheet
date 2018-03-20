@@ -1,6 +1,6 @@
 "use strict";
 
-app.controller("PropertyDetailCtrl", function($location, $rootScope, $routeParams, $scope, PropertyInfoService){
+app.controller("PropertyDetailCtrl", function($location, $rootScope, $routeParams, $scope, PropertyInfoService, VendorService){
     
     const getProperty = () => {
         PropertyInfoService.getSingleProperty($routeParams.id).then((results) =>{
@@ -11,16 +11,15 @@ app.controller("PropertyDetailCtrl", function($location, $rootScope, $routeParam
     };
     getProperty();
 
-    $scope.getToGeneral = () => {
-        $location.path("/general");
+    $scope.getVendor = (event) => {
+        console.log("text");
+        console.log(event);
+        VendorService.getVendorIdByType($routeParams.id, "fireAlarmVendor").then((results) => {
+            const vendorId = results.data;
+            console.log(vendorId);
+        }).catch((err) => {
+            console.log("err in getVendor", err);
+        });
     };
-
-    $scope.getToAccess= () => {
-        $location.path("/access");
-    };
-
-    $scope.getToVendorInfo= () => {
-        $location.path("/vendorinfo");
-    };
-
+    // VendorService.getVendorInfoFromFirebase($event.target.id)
 });
